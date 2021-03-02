@@ -1,3 +1,10 @@
+'''
+Engine class
+
+Use decrete event emulation to emulate a simple direct linked sender and receiver
+
+Call the Link and Sender class interface to handle acknowledgement, drop and packet send.
+'''
 import heapq, random, json
 from config.constant import *
 from utils import get_packet_type, get_emulator_info, debug_print

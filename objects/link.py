@@ -1,3 +1,10 @@
+'''
+Link class
+
+Simulate a direct link. Calculate send_delay and drop the package at random at the rate of loss rate.
+loss: packet_enters_link
+delay: send_delay
+'''
 import random
 from config.constant import BYTES_PER_PACKET
 import numpy as np

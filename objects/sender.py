@@ -1,3 +1,23 @@
+'''
+Sender class
+
+The Sender can be connected to an application layer to get packet or otherwise creates packet by itself.
+The Sender has an Observer from comon.sender_obs which can calculate and record several metrics in the sender.
+The Sender is intended to:
+
+  1. select a certain packet from the packet list
+  2. decide the sending rate and cnwd size
+
+The Sender may use a congestion window to decide wheather a packet can be sent.
+
+The Sender has three triggers: 
+  1. on_packet_sent
+  2. on_packet_ack
+  3. on_packet_lost
+
+! The Sender doesn't care about the packets' sequence. Neither sequential guarantee is implemented nor the application care about the sequence.
+'''
+
 from config.constant import *
 from common import sender_obs
 from utils import check_solution_format, measure_time

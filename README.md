@@ -1,5 +1,9 @@
 # Quickly Start
 
+魔改版 simple_emulator
+
+修改者：马川
+
 ## For pypi
 
 We have package our repository into [DTP_Emulator](https://pypi.org/project/DTP-Emulator/),
@@ -88,14 +92,14 @@ For every packet in packet queue, it's implement in "objects/packet.py". But we 
 
 ### congestion_control_algorithm.py
 
-In this module, you have to implement a class with member function "make_decision" and "append_input". So we recommend you to accomplish this by inheriting from the object of "CongestionControl" implemented in "cc_base.py" in case you forget these. 
+In this module, you have to implement a class with member function "make\_decision" and "append\_input". So we recommend you to accomplish this by inheriting from the object of "CongestionControl" implemented in "cc\_base.py" in case you forget these. 
 
 Here we provided some simple algorithms about congestion control to help you being familiar with this competition.
 Like [Reno](https://github.com/AItransCompetition/DTP_Demo/blob/master/demo_reno.py) and an example about [reinforcement learning](https://github.com/AItransCompetition/DTP_Demo/blob/master/demo_rl.py) implemented by tensorflow.
 
 #### make_decision
 
-For the member function "make_decision", we will call it every time I want to send a packet. And it should return a dictionary with window size and send rate according to the information from "_input_list", just like below.
+For the member function "make\_decision", we will call it every time I want to send a packet. And it should return a dictionary with window size and send rate according to the information from "\_input\_list", just like below.
 
 ```json
 {

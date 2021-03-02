@@ -1,3 +1,12 @@
+'''
+class AppicationLayer (wrong spelling!)
+
+This application layer can read block informations from files and select the best block to send and then create the corresponding packet.
+
+The application layer will instantly trop a block once the deadline is passed.
+
+It may ask to retransmit some packets of a block.
+'''
 from objects.block import Block
 from objects.packet import Packet
 import numpy as np

@@ -1,3 +1,6 @@
+'''
+An ideal cc algorithm using the trace file
+'''
 from config.constant import *
 from utils import debug_print
 from objects.cc_base import CongestionControl

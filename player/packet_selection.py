@@ -1,5 +1,11 @@
-from utils import measure_time
+'''
+A Solution Class
 
+Only one function 'select_packet' to overwrite which decides which packet to send.
+A basic DTP based selection algorithm is implemented
+This class can be derived to ensure the emulator's running properly.
+'''
+from utils import measure_time
 
 class Solution(object):
 

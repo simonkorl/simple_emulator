@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+'''
+# use output logs in output/block.log to calculate qoe
+'''
 
 from objects.emulator import PccEmulator
 import os, sys, inspect

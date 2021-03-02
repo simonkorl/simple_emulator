@@ -1,3 +1,10 @@
+'''
+Class Block
+
+A capsulation of information in a block.
+
+Not only the data to send is saved in this class, but also information for the emulator and log.
+'''
 from utils import get_ms_time
 
 

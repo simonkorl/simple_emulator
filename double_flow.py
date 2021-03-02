@@ -6,6 +6,9 @@
 # @Function : 
 # @Author : azson
 # @Time : 2020/4/10 15:52
+
+# create a double flow emulator
+# a double flow emulator is the one which has a reversed ideal link with infinite bandwith and infinite loss rate, and a normal solution correspondent 
 '''
 
 from objects.emulator import PccEmulator

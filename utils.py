@@ -6,6 +6,7 @@
 # @Function : 
 # @Author : azson
 # @Time : 2020/1/8 15:59
+# A bunch of assistant functions
 '''
 
 import time, json
